@@ -39,19 +39,26 @@
 .navbar {
 	border-radius: 0px !important;
 	margin-bottom: 0px !important;
-	background-color: #FDFFF7 !important;
 	border: none !important;
+	background-color: #0C0C0C !important;
+	box-shadow: 0px 4px #00A7E1;
 }
 
 .navbar-nav a {
-	color: #00A7E1 !important;
+	color: #F4C95D !important;
 	font-weight: bold;
+	line-height: 30px;
+	font-size: 18px;
 }
 
 .bio-div-content-container {
 	width: 100%;
 	height: 400px;
 	background-color: #00A7E1;
+}
+
+span.icon-bar {
+	background-color: #F4C95D !important; 
 }
 
 /* ##################################### */
@@ -66,6 +73,11 @@
 	padding: 50px;
 }
 
+.projects-header h1 {
+	font-weight: bold;
+	color: #0C0C0C;
+}
+
 .project-div-container {
 	height: auto;
 	background-color: green;
@@ -74,7 +86,6 @@
 .project-div-content {
 	padding: 0px !important;
 	height: auto;
-	opacity: 0.8; 
 	transition: all .2s ease-in-out; 
 }
 
@@ -107,4 +118,22 @@
 
 .project-content p {
 	color: #0C0C0C;
+}
+
+/* ##################################### */
+
+.contact-div {
+	width: 100%;
+	height: 200px;
+	background-color: #0C0C0C;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.contact-div-content i {
+	color: #F4C95D;
+	font-size: 25px;
+	text-align: center;
+	padding: 5px;
 }
