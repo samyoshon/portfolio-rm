@@ -1,0 +1,95 @@
+/* ##################################### */
+
+.navbar-scrolled {
+    position: fixed !important;
+    width: 100%;
+    left: 0;
+    top: 0 !important;;
+    z-index: 100;
+    border-top: 0;
+}
+
+/* ##################################### */
+
+.hero-div {
+	width: 100%;
+	height: 680px;
+	background-color: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.hero-div-content {
+	color: white;
+	font-size: 60px;
+	text-align: center;
+}
+
+/* ##################################### */
+
+.bio-div {
+	padding: 0px !important;
+}
+
+.navbar {
+	border-radius: 0px !important;
+	margin-bottom: 0px !important;
+	background-color: rgba(255, 255, 255, 0.8) !important;
+	border: none !important;
+}
+
+.navbar-nav {
+	text-align: right;
+}
+
+.bio-div-content-container {
+	width: 100%;
+	height: 400px;
+	background-color: yellow;
+}
+
+/* ##################################### */
+
+.projects-div {
+	padding: 0px !important;
+}
+
+.project-div-container {
+	height: auto;
+	background-color: green;
+}
+
+.project-div-content {
+	padding: 0px !important;
+	height: auto;
+	border: 1px solid black;
+	opacity: 0.5; 
+	transition: all .2s ease-in-out; 
+}
+
+.project-div-content:hover {
+	opacity: 1;
+	transform: scale(0.95);
+}
+
+#project-1 {
+	content: url('../img/cooking-trailers-1.png');
+	background-size: cover;
+}
+
+#project-2 {
+	content: url('../img/jetpath-1.png');
+	background-size: cover;
+}
+
+#project-3 {
+	content: url('../img/lay-a-cake-1.png');
+	background-size: cover;
+}
+
+#project-4 {
+	content: url('../img/order-what-app-1.png');
+	background-size: cover;
+}
+
