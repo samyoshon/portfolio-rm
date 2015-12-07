@@ -33,15 +33,20 @@
 /* ##################################### */
 
 .bio-div {
-	padding: 0px !important;
+	padding: 50px 0 0 0 !important;
 }
 
+.navbar-bootstrap {
+	padding: 0 !important;
+}
 .navbar {
 	border-radius: 0px !important;
 	margin-bottom: 0px !important;
 	border: none !important;
 	background-color: #0C0C0C !important;
 	box-shadow: 0px 4px #00A7E1;
+	z-index: 150;
+	margin-bottom: -50px !important;
 }
 
 .navbar-nav a {
@@ -76,6 +81,7 @@ span.icon-bar {
 .projects-header h1 {
 	font-weight: bold;
 	color: #0C0C0C;
+	font-size: 55px;
 }
 
 .project-div-container {
@@ -85,6 +91,7 @@ span.icon-bar {
 
 .project-div-content {
 	padding: 0px !important;
+	opacity: 0.8;
 	height: auto;
 	transition: all .2s ease-in-out; 
 }
@@ -108,7 +115,6 @@ span.icon-bar {
 	padding: 15px 35px;
 	height: 250px;
 	font-weight: bold;
-/*	background-color: #FDFFF7;*/
 }
 
 .project-content h3 {
@@ -136,4 +142,6 @@ span.icon-bar {
 	font-size: 25px;
 	text-align: center;
 	padding: 5px;
+	text-decoration: none;
 }
+
