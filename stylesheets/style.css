@@ -64,13 +64,22 @@
 	padding: 0px !important;
 	height: auto;
 	border: 1px solid black;
-	opacity: 0.5; 
+	opacity: 0.8; 
 	transition: all .2s ease-in-out; 
 }
 
 .project-div-content:hover {
 	opacity: 1;
 	transform: scale(0.95);
+}
+
+.project-div-overlay {
+	background: rgba(120, 30, 20, 1);
+	width: 100%;
+}
+
+.project-div-content:hover .project-div-overlay {
+  opacity: 1;
 }
 
 #project-1 {
