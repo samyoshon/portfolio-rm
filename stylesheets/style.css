@@ -68,8 +68,7 @@
 .project-div-content {
 	padding: 0px !important;
 	height: auto;
-	border: 1px solid black;
-	opacity: 0.5; 
+	opacity: 0.8; 
 	transition: all .2s ease-in-out; 
 }
 
@@ -78,23 +77,17 @@
 	transform: scale(0.95);
 }
 
-#project-1 {
-	content: url('../img/cooking-trailers-1.png');
-	background-size: cover;
+.project-image {
+	width: 100%;
 }
 
-#project-2 {
-	content: url('../img/jetpath-1.png');
-	background-size: cover;
+.project-content {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+	box-sizing: border-box;
+	padding: 15px;
+	height: 250px;
 }
-
-#project-3 {
-	content: url('../img/lay-a-cake-1.png');
-	background-size: cover;
-}
-
-#project-4 {
-	content: url('../img/order-what-app-1.png');
-	background-size: cover;
-}
-

@@ -1,19 +1,17 @@
 $(document).ready(function() {
 	
-	console.log('hello');
 	//Sticky navbar on scroll
 	var mn = $(".navbar");
     mns = "navbar-scrolled";
     hdr = $('.hero-div').height();
 
 	$(window).scroll(function() {
-		if( $(this).scrollTop() > hdr ) {
+		if ($(this).scrollTop() > hdr) {
 			mn.addClass(mns);
 		} else {
 			mn.removeClass(mns);
 		}
 	});
-
 
 	//Smooth scroll
 	$("a[href^='#']").on('click', function(e) {
